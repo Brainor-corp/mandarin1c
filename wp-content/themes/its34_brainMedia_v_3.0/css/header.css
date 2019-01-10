@@ -1,0 +1,181 @@
+.header-top-btn {
+  display: inline-block;
+  border: none;
+  border-radius: 7px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #dc3545;
+  padding: 15px;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  outline: none;
+  transition: background-color .1s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+  .header-top-btn:focus, .header-top-btn:hover {
+    text-decoration: none;
+    color: #fff; }
+  .header-top-btn:hover {
+    background-color: #e4606d; }
+    .header-top-btn:hover:after {
+      opacity: .22; }
+  .header-top-btn:active {
+    background-color: #d32535; }
+    .header-top-btn:active:after {
+      opacity: .32; }
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  font-family: "mariadPro", sans-serif;
+  overflow-x: hidden;
+  opacity: 1;
+  color: #383838; }
+
+.main-site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+  .main-site .main-section {
+    flex: 1; }
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  text-transform: uppercase; }
+
+.about, .programm, .articles, .skill, .reviews, .services, .contacts, .partner {
+  padding: 3% 0; }
+
+.block-line {
+  margin-bottom: 30px; }
+  .block-line a {
+    text-transform: uppercase;
+    color: #FFAC00;
+    font-size: 14px;
+    position: absolute;
+    bottom: -15px; }
+    .block-line a:hover {
+      transition: all .5s ease;
+      color: #dc3545;
+      text-decoration: none; }
+
+.line {
+  height: 3px;
+  background-image: url(../img/line.png);
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  bottom: 12px; }
+
+.mt-100 {
+  margin-top: 100px !important; }
+
+.header {
+  background-color: #F2F2F2; }
+  .header-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+    .header-top-logo {
+      max-width: 260px; }
+    .header-top-info {
+      letter-spacing: 1.1px;
+      font-weight: 600; }
+      .header-top-info .fa {
+        color: #dc3545;
+        font-size: 25px;
+        margin-left: 15px; }
+  .header-bottom {
+    background-color: #ccc;
+    padding: 2% 0;
+    background-color: rgba(95, 127, 30, 0.5);
+    z-index: 9;
+    position: absolute;
+    width: 100%; }
+    .header-bottom nav {
+      width: 100%; }
+    .header-bottom ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding: 0;
+      margin: 0; }
+      .header-bottom ul li {
+        margin: 0 2%; }
+        .header-bottom ul li a {
+          color: #fff;
+          text-transform: uppercase;
+          font-weight: 600;
+          font-size: 1.1rem;
+          padding: 3px 0; }
+          .header-bottom ul li a:hover {
+            text-decoration: none;
+            border-bottom: 2px solid #fff; }
+      .header-bottom ul .active {
+        border-bottom: 2px solid #fff; }
+  .header .mobile-menu .hamburger {
+    position: absolute;
+    right: 30px;
+    top: 11px;
+    z-index: 99; }
+  .header .mobile-menu .hidden-menu {
+    background-color: rgba(171, 210, 90, 0.85);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: auto;
+    z-index: 9;
+    width: 100%; }
+    .header .mobile-menu .hidden-menu ul {
+      padding: 40px 0;
+      line-height: 2; }
+      .header .mobile-menu .hidden-menu ul li {
+        text-align: center;
+        list-style: none; }
+        .header .mobile-menu .hidden-menu ul li a {
+          color: #fff;
+          text-transform: uppercase;
+          font-weight: bold;
+          padding: 5px 8px;
+          font-size: 15px; }
+          .header .mobile-menu .hidden-menu ul li a:hover, .header .mobile-menu .hidden-menu ul li a:active {
+            color: #dc3545;
+            background-color: #fff;
+            border-radius: 12px;
+            text-decoration: none;
+            transition: all 0.5s ease; }
+
+.banner-full {
+  height: 350px;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  background-color: #ccc;
+  position: relative; }
+  .banner-full:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(61, 60, 60, 0.5); }
+  .banner-full-info {
+    margin-top: 40px; }
+    .banner-full-info .fa {
+      font-size: 40px;
+      margin-bottom: 20px; }
+
+@media only screen and (max-width: 992px) {
+  .header-top-info {
+    font-size: 14px; }
+    .header-top-info .fa {
+      font-size: 21px; } }
+@media only screen and (max-width: 400px) {
+  .header-top-logo {
+    max-width: 200px; } }
+
+/*# sourceMappingURL=header.css.map */

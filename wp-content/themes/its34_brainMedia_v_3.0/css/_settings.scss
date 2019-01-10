@@ -1,0 +1,56 @@
+body{
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  font-family: $default-font;
+  overflow-x: hidden;
+  opacity: 1;
+  color: #383838;
+}
+
+.main-site{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  .main-section{
+    flex: 1;
+  }
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6{
+  text-transform: uppercase;
+}
+
+.about, .programm, .articles, .skill, .reviews, .services, .contacts, .partner{
+  padding: 3% 0;
+}
+
+.block-line{
+  margin-bottom: 30px;
+  a{
+    text-transform: uppercase;
+    color: $orange;
+    font-size: 14px;
+    position: absolute;
+    bottom: -15px;
+    &:hover{
+      transition:all .5s ease;
+      color: $accent;
+      text-decoration: none;
+    }
+  }
+}
+
+.line{
+  height: 3px;
+  background-image: $bg-line;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  bottom: 12px;
+}
+
+.mt-100 {
+  margin-top: 100px !important;
+}
