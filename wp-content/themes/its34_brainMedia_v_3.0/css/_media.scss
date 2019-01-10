@@ -1,0 +1,115 @@
+@import "vars";
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .programm {
+    .block-shadow {
+      height: 480px;
+    }
+    .h4 {
+      font-size: 22px;
+    }
+    .programm-content{
+      font-size: 14px;
+    }
+  }
+
+}
+
+/**/
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .about{
+    .menu-about{
+      a{
+        font-size: 14px;
+        margin-right: 16px;
+      }
+    }
+  }
+
+  .articles{
+
+  }
+
+  .programm {
+    .block-shadow {
+      height: 440px;
+    }
+    .block-child{
+      margin-bottom: 30px;
+    }
+  }
+}
+
+/**/
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+.services{
+  .services-shadow{
+    margin-bottom: 20px;
+  }
+}
+}
+
+/**/
+@media only screen and (max-width: 550px) {
+  .tarif{
+    .btn{
+      padding: 10px 10px!important;
+      margin: 0 5px;
+    }
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .line {
+    display: none;
+  }
+
+  .skill{
+    .col-md-3:nth-child(4){
+      .h5{
+          margin-bottom: 0;
+      }
+    }
+    .h5{
+      margin-bottom: 25px;
+    }
+  }
+  .contacts {
+    font-size: 13px;
+  }
+
+  .footer {
+    font-size: 15px;
+  }
+
+  .tarif{
+    .btn{
+      padding: 10px 5px!important;
+      margin: 0 2px;
+    }
+    #accordion{
+      padding: 0 20px 20px;
+    }
+  }
+  .page-software{
+    .media{
+      .block-color{
+        height: 100px;
+        width: 100px;
+        margin-right: 1rem;
+      }
+    }
+  }
+}
+
+/**/
+
+

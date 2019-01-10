@@ -1,0 +1,53 @@
+.tarif{
+  margin-top: 7%;
+  .shadow{
+    box-shadow: 0 5px 7px rgba(255, 172, 0, 0.5);
+    margin: 30px 0;
+    padding: 0 40px 30px;
+  }
+  .content{
+    img{
+      float: left;
+      margin: 0 30px 30px 0;
+      max-width: 200px;
+    }
+  }
+  .btn{
+    @extend %btn;
+    text-transform: none!important;
+    padding: 15px 50px!important;
+    margin: 0 10px;
+  }
+  .btn-default{
+   @extend %btn-default;
+  }
+  .btn-cons{
+    padding: 5px 15px!important;
+    margin: 40px 0 30px!important;
+    background-color: $orange!important;
+    &:focus, &:hover {
+      text-decoration: none;
+      color: #fff;
+    }
+    &:hover {
+      background-color: lighten($orange, 10%) !important;
+      &:after {
+        opacity: .22;
+      }
+    }
+    &:active {
+      background-color: darken($orange, 5%) !important;
+      &:after {
+        opacity: .32;
+      }
+    }
+  }
+  #accordion{
+    position: relative;
+    width: 100%;
+    padding: 0 50px 30px;
+    .block-btn{
+      margin-bottom: 30px;
+    }
+  }
+}
