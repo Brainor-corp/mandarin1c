@@ -1,0 +1,29 @@
+.page-contacts {
+  margin-top: 7%;
+  .email{
+    margin-top: 9px;
+    .fa-envelope {
+      font-size: 20px;
+      margin-left: 3px;
+    }
+  }
+  .form-contacts{
+    width: 100%;
+    .btn{
+      @extend %btn;
+      width: 100%;
+    }
+    input{
+      @extend %input;
+    }
+    a{
+      color: #000;
+      display: block;
+      margin-top: 20px;
+    }
+    .wpcf7{
+      margin: 30px 0;
+    }
+  }
+
+}

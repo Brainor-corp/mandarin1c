@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAQ,8BAAmB;AACnB,iCAAsB;AACtB,+BAAoB",
+"sources": ["libs.scss"],
+"names": [],
+"file": "libs.css"
+}
